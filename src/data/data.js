@@ -1,3 +1,6 @@
+import projectV1 from "../assets/projectV1.png";
+import projectV2 from "../assets/projectV2.png";
+
 export const SIDEBAR_DATA = [
   {
     title: "Home",
@@ -44,14 +47,14 @@ export const MY_PROJECT = [
     title: "Responsive Website",
     description:
       "Responsive web portofolio with HTLM and tailwindcss, this project chalange from Harisenin botcamp",
-    image: "/public/projectV1.png",
+    image: projectV1,
     link: "https://responsive-webv2.netlify.app/",
   },
   {
     id: 2,
     title: "React Ecommerce",
     description: "Build demo project with React + Vite, tailwindcss",
-    image: "/public/projectV2.png",
+    image: projectV2,
     link: "https://react-ecommerce-weld-sigma.vercel.app/",
   },
 ];
