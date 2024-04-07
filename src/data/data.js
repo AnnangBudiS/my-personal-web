@@ -20,6 +20,21 @@ export const SIDEBAR_DATA = [
   },
 ];
 
+export const BOTTOM_NAV = [
+  {
+    title: "About",
+    link: "/about",
+  },
+  {
+    title: "My Projects",
+    link: "/my-projects",
+  },
+  {
+    title: "Contact",
+    link: "/contact",
+  },
+];
+
 export const SKILL_TREE = [
   {
     title: "HTML",

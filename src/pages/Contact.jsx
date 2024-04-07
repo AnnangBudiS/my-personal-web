@@ -37,9 +37,9 @@ const Contact = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="flex flex-col lg:flex-row gap-20 min-h-[94vh] items-center justify-center">
+      <div className="flex flex-col pt-20 lg:flex-row gap-20 min-h-[94vh] items-center justify-center">
         <h2 className="text-3xl font-bold lg:text-6xl">Say Hello ,</h2>
-        <form ref={textForm} onSubmit={sendEmail} className="w-[400px]">
+        <form ref={textForm} onSubmit={sendEmail} className="w-[400px] p-10">
           <InputText label="Dear Annang," name="message" isTextArea={true} />
           <InputText
             label="My mail is :"

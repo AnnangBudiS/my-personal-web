@@ -3,14 +3,14 @@ import heroImage from "../assets/hero-image.png";
 
 const Hero = () => {
   return (
-    <div className="hero min-h-[94vh] bg-base-100">
+    <div className="hero py-20 lg:py-0 min-h-[88vh] bg-base-100">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src={heroImage}
           alt="hero image"
-          className="object-contain max-w-md"
+          className="object-contain lg:max-w-md"
         />
-        <div>
+        <div className="p-4 lg:p-0">
           <h2 className="text-2xl font-bold">Hello there,</h2>
           <h1 className="text-3xl lg:text-8xl font-bold py-3">
             I am <span className="text-emerald-400">Annang Budi S</span>

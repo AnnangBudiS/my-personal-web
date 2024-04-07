@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const AtroposJs = ({ title, description, link, image }) => {
   return (
     <Atropos
-      className="card w-96 bg-base-300 shadow-xl"
+      className="card w-72 md:w-96 bg-base-300 shadow-xl"
       activeOffset={40}
       shadow={false}
       onRotate={true}

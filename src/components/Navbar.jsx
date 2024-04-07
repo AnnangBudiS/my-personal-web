@@ -8,9 +8,9 @@ const Navbar = () => {
   return (
     <div className="fixed w-full z-[1] navbar bg-base-100 lg:px-52">
       <div className="navbar-start">
-        <a className="text-xl font-bold">
+        <NavLink to="/" className="text-xl font-bold">
           ABS/<span className="text-emerald-400">Dev</span>
-        </a>
+        </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">

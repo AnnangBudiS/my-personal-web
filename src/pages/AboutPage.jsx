@@ -14,15 +14,15 @@ const AboutPage = () => {
       animate={{ x: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="flex flex-col justify-center md:flex-row md:gap-32 lg:gap-48 py-24">
+      <div className="p-5 flex flex-col justify-center md:flex-row md:gap-32 lg:gap-48 py-24">
         <div>
           {/* Biography */}
           <section>
-            <h2 className="text-2xl font-bold mb-2">
+            <h2 className="md:text-2xl font-bold mb-2">
               🎨Hay, Welcome to my Portfolio!🎨
             </h2>
             <ul className="p-5 ">
-              <li className="max-w-md mb-20">
+              <li className="max-w-md mb-20 text-sm md:text-base">
                 <p>
                   Hello! I'm Annang Budi S, or commonly known as Annang. I am a
                   Computer Technology student majoring in D3 from the University
@@ -35,10 +35,10 @@ const AboutPage = () => {
                 </p>
               </li>
               <li className="max-w-md mb-20">
-                <p className="text-xl font-bold mb-2">
+                <p className="lg:text-xl font-bold mb-2">
                   🌟 Exploring the Digital World:
                 </p>
-                <p className="pl-8">
+                <p className="pl-8 text-sm md:text-base">
                   From the city of Yogyakarta, I bring enthusiasm and creativity
                   to create engaging web experiences. I have skills in ReactJs
                   and experience in taking Web Developer courses as well as the
@@ -47,10 +47,10 @@ const AboutPage = () => {
                 </p>
               </li>
               <li className="max-w-md mb-20">
-                <p className="text-xl font-bold mb-2">
+                <p className="md:text-xl font-bold mb-2">
                   💼 Balancing Between Two Worlds:
                 </p>
-                <p className="pl-8">
+                <p className="pl-8 text-sm md:text-base">
                   As someone with responsibilities at the Attorney General's
                   Office, I have learned the importance of balancing between my
                   main job and personal interests. Being a Freelance Front End
@@ -60,15 +60,17 @@ const AboutPage = () => {
                 </p>
               </li>
               <li className="max-w-md mb-20">
-                <p className="text-xl font-bold mb-2">🚀 Explore Together:</p>
-                <p className="pl-8">
+                <p className="lg:text-xl font-bold mb-2">
+                  🚀 Explore Together:
+                </p>
+                <p className="pl-8 text-sm md:text-base">
                   With a spirit of adventure and courage, I approach every web
                   development project as a challenge to be overcome. I strive to
                   create web experiences that are not only functional but also
                   inspiring and captivating for users.
                 </p>
               </li>
-              <li className="max-w-md mb-20">
+              <li className="max-w-md mb-20 text-sm lg:text-base">
                 <p>
                   Thank you for visiting my portfolio! Let's explore the digital
                   world together and create captivating works. Let's embark on a
@@ -80,7 +82,7 @@ const AboutPage = () => {
           {/* Skills */}
           <section className="mb-10">
             <h2 className="text-2xl font-bold mb-2">Skills</h2>
-            <ul className="grid grid-cols-3 gap-5 max-w-md p-5">
+            <ul className="grid grid-cols-2 md:grid-cols-3 gap-5 max-w-md p-5">
               {SKILL_TREE.map((item) => (
                 <motion.li
                   key={item.title}
@@ -96,7 +98,7 @@ const AboutPage = () => {
           {/* Certificate */}
           <section>
             <h2 className="text-2xl font-bold mb-2">Certificate</h2>
-            <ul className="flex gap-5">
+            <ul className="flex flex-col justify-center items-center mt-5 md:flex-row gap-5">
               <li className="w-52">
                 <img src={harisenin} alt="harisenin" />
               </li>
@@ -109,7 +111,7 @@ const AboutPage = () => {
             </ul>
           </section>
         </div>
-        <div className="h-screen sticky top-24">
+        <div className="hidden h-screen md:block sticky top-24">
           <img
             src={profileImage}
             alt="about"
