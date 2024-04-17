@@ -1,5 +1,6 @@
 import projectV1 from "../assets/projectV1.png";
 import projectV2 from "../assets/projectV2.png";
+import projectV3 from "../assets/projectV3.png";
 
 export const SIDEBAR_DATA = [
   {
@@ -71,5 +72,12 @@ export const MY_PROJECT = [
     description: "Build demo project with React + Vite, tailwindcss",
     image: projectV2,
     link: "https://react-ecommerce-weld-sigma.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "React Weather",
+    description: "Build demo project with React + Vite, tailwindcss",
+    image: projectV3,
+    link: "https://react-weather-app-olive.vercel.app/",
   },
 ];
